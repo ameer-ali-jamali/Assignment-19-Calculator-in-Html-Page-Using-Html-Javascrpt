@@ -1,6 +1,8 @@
 .container{
     margin-left: 36%;
-    margin-top: 12%;
+    margin-top: 7%;
+    border: solid black 3px;
+    position: absolute;
 }
 .btn-item{
     width: 88px;
@@ -28,8 +30,9 @@
 }
 .inpt{
     height: 71px;
-    margin-left: 1px;
-    width: 354px;
+    margin-left: 0px;
+    width: 356px;
+    background: skyblue;
 }
 
 .btn-item2{
@@ -39,4 +42,14 @@
     height: 76px;
     font-size: xx-large;
     margin-top: -229px;
+}
+body{
+    background: aquamarine;
+}
+button:hover{
+    background-color: brown;
+
+}
+input:hover{
+    background-color: yellow;
 }
