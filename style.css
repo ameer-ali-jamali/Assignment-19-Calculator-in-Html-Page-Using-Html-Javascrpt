@@ -1,7 +1,7 @@
 .container{
     margin-left: 36%;
-    margin-top: 7%;
-    border: solid black 3px;
+    margin-top: 4%;
+    border: solid black 5px;
     position: absolute;
 }
 .btn-item{
@@ -47,9 +47,9 @@ body{
     background: aquamarine;
 }
 button:hover{
-    background-color: brown;
+    background-color: rgb(228, 56, 56);
 
 }
 input:hover{
-    background-color: yellow;
+    background-color: rgb(156, 156, 95);
 }
