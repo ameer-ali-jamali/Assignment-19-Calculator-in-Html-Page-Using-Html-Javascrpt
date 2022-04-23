@@ -1,0 +1,42 @@
+.container{
+    margin-left: 36%;
+    margin-top: 12%;
+}
+.btn-item{
+    width: 88px;
+    height: 83px;
+    font-size: xx-large;
+}
+    
+
+.addition-btn{
+    height: 166px;
+    width: 88px;
+    position: absolute;
+    font-size: xx-large;
+    margin-top: -83px;
+    margin-left: 4px;
+}
+
+.btn-item1{
+    position: absolute;
+    width: 93px;
+    height: 75px;
+    font-size: xx-large;
+    margin-top: -304px;
+    margin-left: 174px;
+}
+.inpt{
+    height: 71px;
+    margin-left: 1px;
+    width: 354px;
+}
+
+.btn-item2{
+    margin-left: 849px;
+    position: absolute;
+    width: 93px;
+    height: 76px;
+    font-size: xx-large;
+    margin-top: -229px;
+}
