@@ -10,52 +10,50 @@
 </head>
 
 <body>
-<div class="container">
-       <input class="inpt" type="text" name="" id="num1">
-    <br>
-    <button id="/" class=" btn-item" onclick="num('%')">%</button>
-    <button id="*" class=" btn-item" onclick="num('*')">*</button>
-    <button id="CE" class=" btn-item" onclick="num('CE')">CE</button>
-    <button id="C" class="btn-item" onclick="num('C')">C</button>
-    <br>
-    <button id="num7" class=" btn-item" onclick="num(7)">7</button>
-    <button id="num8" class="btn-item" onclick="num(8)">8</button>
-    <button id="num9" class="btn-item" onclick="num (9)">9</button>
-    <button id="/" class="btn-item" onclick="num ('/')">/</button>
-    <br>
-    <button id="num4" class="btn-item" onclick="num(4)">4</button>
-    <button id="num5" class="btn-item" onclick="num (5)">5</button>
-    <button id="num6" class="btn-item" onclick="num(6)">6</button>
-    <button id="-" class="btn-item" onclick="num ('-')">-</button>
-    <br>
-    <button id="num1" class="btn-item" onclick="num (1)">1</button>
-    <button id="num2" class="btn-item" onclick="num(2)">2</button>
-    <button id="num3" class="btn-item" onclick="num (3)">3</button>
+    <div class="container">
+        
+        <input type="text" name="" id="int" class="text-box" >
+        <br>
+        <button  onclick="num('/')" id="prc" class=" btn-item">/</button>
+        <button  onclick="num('*')" id="divi" class=" btn-item">*</button>
+        <button  onclick="num('C')" id="cee" class=" btn-item">C</button>
+        <button  onclick="num('CE')" id="ccc" class="btn-item">CE</button>
+        <br>
+        <button  onclick="num(7)" id="j7" class=" btn-item">7</button>
+        <button  onclick="num(8)" id="j8" class="btn-item">8</button>
+        <button  onclick="num(9)" id="j9" class="btn-item">9</button>
+        <button  onclick="num('-')" id="j/" class="btn-item">-</button>
+        <br>
+        <button  onclick="num(4)" id="j4" class="btn-item">4</button>
+        <button  onclick="num(5)" id="j5" class="btn-item">5</button>
+        <button  onclick="num(6)" id="j6" class="btn-item">6</button>
+        <button  onclick="num('+')" id="j-" class="btn-item">+</button>
+        <br>
+        <button  onclick="num(1)" id="j1" class="btn-item">1</button>
+        <button  onclick="num(2)" id="j2" class="btn-item">2</button>
+        <button  onclick="num(3)" id="j3" class="btn-item">3</button>
 
-    <br>
-    <button  id="00" class="btn-item" onclick="num(00)">00</button>
-    <button id="0" class="btn-item" onclick="num (0)">0</button>
-    <button id="." class="btn-item" onclick="num ('.')">.</button>
-    <button id="+" class="addition-btn" onclick="num ('+')">+</button>
-    <br>
-   
+        <br>
+        <button  onclick="num('00')" id="j00" class="btn-item">00</button>
+        <button  onclick="num(0)" id="j0" class="btn-item">0</button>
+        <button  onclick="num('.')" id="j." class="btn-item">.</button>
+        <button  onclick="num('=')" id="j+" class="eql-btn">=</button>
+        <br>
 
-</div>
- 
 
+    </div>
 
     <script>
 
         function num(n) {
-
-document.getElementById("")
+           let i = document.getElementById("int").value = document.getElementById("int").value +n
+        
         }
-
         function eql() {
 
-            alert(eval(""))
+            alert(eval("2+3"))
 
-            document.getElementById("container").innerHTML = eval(document.getElementById("container").innerText)
+            // document.getElementById("container").innerHTML = eval(document.getElementById("container").innerText)
 
         }
     </script>
