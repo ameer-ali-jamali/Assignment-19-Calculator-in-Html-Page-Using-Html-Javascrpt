@@ -11,33 +11,33 @@
 
 <body>
     <div class="container">
-        
-        <input type="text" name="" id="int" class="text-box" >
+
+        <input type="text" name="" id="label" class="text-box">
         <br>
-        <button  onclick="num('/')" id="prc" class=" btn-item">/</button>
-        <button  onclick="num('*')" id="divi" class=" btn-item">*</button>
-        <button  onclick="num('C')" id="cee" class=" btn-item">C</button>
-        <button  onclick="num('CE')" id="ccc" class="btn-item">CE</button>
+        <button onclick="num('/')" class=" btn-item">/</button>
+        <button onclick="num('*')" class=" btn-item">*</button>
+        <button onclick="num('C')" class=" btn-item">C</button>
+        <button onclick="num('')" class="btn-item">CE</button>
         <br>
-        <button  onclick="num(7)" id="j7" class=" btn-item">7</button>
-        <button  onclick="num(8)" id="j8" class="btn-item">8</button>
-        <button  onclick="num(9)" id="j9" class="btn-item">9</button>
-        <button  onclick="num('-')" id="j/" class="btn-item">-</button>
+        <button onclick="num(7)" class=" btn-item">7</button>
+        <button onclick="num(8)" class="btn-item">8</button>
+        <button onclick="num(9)" class="btn-item">9</button>
+        <button onclick="num('-')" class="btn-item">-</button>
         <br>
-        <button  onclick="num(4)" id="j4" class="btn-item">4</button>
-        <button  onclick="num(5)" id="j5" class="btn-item">5</button>
-        <button  onclick="num(6)" id="j6" class="btn-item">6</button>
-        <button  onclick="num('+')" id="j-" class="btn-item">+</button>
+        <button onclick="num(4)" class="btn-item">4</button>
+        <button onclick="num(5)" class="btn-item">5</button>
+        <button onclick="num(6)" class="btn-item">6</button>
+        <button onclick="num('+')" class="btn-item">+</button>
         <br>
-        <button  onclick="num(1)" id="j1" class="btn-item">1</button>
-        <button  onclick="num(2)" id="j2" class="btn-item">2</button>
-        <button  onclick="num(3)" id="j3" class="btn-item">3</button>
+        <button onclick="num(1)" class="btn-item">1</button>
+        <button onclick="num(2)" class="btn-item">2</button>
+        <button onclick="num(3)" class="btn-item">3</button>
 
         <br>
-        <button  onclick="num('00')" id="j00" class="btn-item">00</button>
-        <button  onclick="num(0)" id="j0" class="btn-item">0</button>
-        <button  onclick="num('.')" id="j." class="btn-item">.</button>
-        <button  onclick="num('=')" id="j+" class="eql-btn">=</button>
+        <button onclick="num('00')" class="btn-item">00</button>
+        <button onclick="num(0)" class="btn-item">0</button>
+        <button onclick="num('.')" class="btn-item">.</button>
+        <button onclick="eql()" class="eql-btn">=</button>
         <br>
 
 
@@ -46,14 +46,11 @@
     <script>
 
         function num(n) {
-           let i = document.getElementById("int").value = document.getElementById("int").value +n
-        
+            document.getElementById("label").value = document.getElementById("label").value + n;
+
         }
         function eql() {
-
-            alert(eval("2+3"))
-
-            // document.getElementById("container").innerHTML = eval(document.getElementById("container").innerText)
+            document.getElementById("label").value = eval(document.getElementById("label").value)
 
         }
     </script>

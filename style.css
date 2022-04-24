@@ -4,14 +4,11 @@
     border: solid black 5px;
     position: absolute;
 }
-
 .btn-item {
     width: 88px;
     height: 83px;
     font-size: xx-large;
 }
-
-
 .eql-btn {
     height: 166px;
     width: 88px;
@@ -20,7 +17,6 @@
     margin-top: -83px;
     margin-left: 4px;
 }
-
 .btn-item1 {
     position: absolute;
     width: 93px;
@@ -29,15 +25,13 @@
     margin-top: -304px;
     margin-left: 174px;
 }
-
 .text-box {
     font-size: 36px;
-    height: 71px;
+    height: 85px;
     margin-left: 0px;
     width: 356px;
     background: skyblue;
 }
-
 .btn-item2 {
     margin-left: 849px;
     position: absolute;
@@ -46,16 +40,13 @@
     font-size: xx-large;
     margin-top: -229px;
 }
-
 body {
     background: aquamarine;
 }
 
 button:hover {
     background-color: rgb(228, 56, 56);
-
 }
-
 input:hover {
     background-color: rgb(156, 156, 95);
 }
