@@ -1,2 +1,2 @@
 # Assignment-19-Calculator-in-Html-Page-Using-Html-Javascrpt
-Calculator-in-html page using javascript .
+Today I craeted Calculator in-html page using html css and javascript .
