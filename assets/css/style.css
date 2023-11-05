@@ -1,0 +1,85 @@
+/* Container Styles */
+.container {
+  position: absolute;
+  left: 36%;
+  top: 0;
+  border: 5px solid black;
+}
+
+/* Button Styles */
+.btn-item {
+  width: 88px;
+  height: 83px;
+  font-size: 1.5rem;
+}
+
+.eql-btn {
+  width: 88px;
+  height: 166px;
+  position: absolute;
+  font-size: 1.5rem;
+  margin-top: -83px;
+  margin-left: 4px;
+}
+
+.btn-item1 {
+  position: absolute;
+  width: 93px;
+  height: 75px;
+  font-size: 1.5rem;
+  margin-top: -304px;
+  margin-left: 174px;
+}
+
+.btn-item2 {
+  margin-left: 849px;
+  position: absolute;
+  width: 93px;
+  height: 76px;
+  font-size: 1.5rem;
+  margin-top: -229px;
+}
+
+/* Text Box Styles */
+.text-box {
+  font-size: 36px;
+  height: 85px;
+  width: 356px;
+  background: skyblue;
+  margin-left: 0;
+}
+
+/* Body Styles */
+body {
+  background: aquamarine;
+}
+
+/* Button Hover Styles */
+button:hover {
+  background-color: #e43838;
+}
+
+/* Input Hover Styles */
+input:hover {
+  background-color: #9c9c5f;
+}
+
+/* Header Styles */
+.item {
+  font-size: 1.125rem;
+  background-color: aliceblue;
+}
+
+/* Footer Styles */
+.ftter {
+  font-size: 1rem;
+  color: #e90a0a;
+  margin-top: 39%;
+}
+
+/* Header Subtitle Styles */
+.hd1 {
+  margin-left: 25%;
+  color: darkblue;
+  font-size: 2.5rem;
+}
