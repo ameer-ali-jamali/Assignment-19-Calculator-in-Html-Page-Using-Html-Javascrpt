@@ -1,18 +1,21 @@
 # The MIT License (MIT)
 
-## Author
+Copyright (c) 2023 Ameer Ali Jamali
 
-#### Ameer Ali
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This Classwork Practice repository, authored by [Ameer Ali](https://github.com/ameer-ali-jamali), is licensed under the [MIT License](LICENSE).
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-### MIT License
-
-The MIT License is a permissive open-source license that allows you to use, modify, and distribute the code in this repository for both personal and commercial purposes, with minimal restrictions. Under the MIT License:
-
-- You are free to use the code in this repository for any purpose, including personal, educational, and commercial projects.
-- You can modify and adapt the code to suit your needs.
-- There is no requirement to open-source your own changes or modifications.
-- You must include a copy of the MIT License text along with the code when redistributing it.
-
-By using this repository, you agree to comply with the terms and conditions of the MIT License.
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH, THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
