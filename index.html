@@ -6,48 +6,61 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
     <body>
-        <header>
+        <!-- <header class="bg-dark text-white text-center py-3">
             <h1 class="item">Calculator by <span class="hd1">Ameer Ali</span></h1>
-        </header>
+        </header> -->
 
-        <div class="container">
-            <input type="text" id="label" class="text-box" readonly>
+        <div class="container text-center mt-3">
+            <input type="text" id="label" class="text-box form-control" readonly>
             <br>
-            <button onclick="appendOperator('/')" class="btn-item">/</button>
-            <button onclick="appendOperator('*')" class="btn-item">*</button>
-            <button onclick="clearEntry()" class="btn-item">C</button>
-            <button onclick="clearAll()" class="btn-item">CE</button>
+            <div class="row">
+                <button onclick="appendOperator('/')" class="btn-item btn btn-outline-secondary col">/</button>
+                <button onclick="appendOperator('*')" class="btn-item btn btn-outline-secondary col">*</button>
+                <button onclick="clearEntry()" class="btn-item btn btn-outline-danger col">C</button>
+                <button onclick="clearAll()" class="btn-item btn btn-outline-danger col">CE</button>
+            </div>
             <br>
-            <button onclick="appendNumber(7)" class="btn-item">7</button>
-            <button onclick="appendNumber(8)" class="btn-item">8</button>
-            <button onclick="appendNumber(9)" class="btn-item">9</button>
-            <button onclick="appendOperator('-')" class="btn-item">-</button>
+            <div class="row">
+                <button onclick="appendNumber(7)" class="btn-item btn btn-secondary col">7</button>
+                <button onclick="appendNumber(8)" class="btn-item btn btn-secondary col">8</button>
+                <button onclick="appendNumber(9)" class="btn-item btn btn-secondary col">9</button>
+                <button onclick="appendOperator('-')" class="btn-item btn btn-outline-secondary col">-</button>
+            </div>
             <br>
-            <button onclick="appendNumber(4)" class="btn-item">4</button>
-            <button onclick="appendNumber(5)" class="btn-item">5</button>
-            <button onclick="appendNumber(6)" class="btn-item">6</button>
-            <button onclick="appendOperator('+')" class="btn-item">+</button>
+            <div class="row">
+                <button onclick="appendNumber(4)" class="btn-item btn btn-secondary col">4</button>
+                <button onclick="appendNumber(5)" class="btn-item btn btn-secondary col">5</button>
+                <button onclick="appendNumber(6)" class="btn-item btn btn-secondary col">6</button>
+                <button onclick="appendOperator('+')" class="btn-item btn btn-outline-secondary col">+</button>
+            </div>
             <br>
-            <button onclick="appendNumber(1)" class="btn-item">1</button>
-            <button onclick="appendNumber(2)" class="btn-item">2</button>
-            <button onclick="appendNumber(3)" class="btn-item">3</button>
+            <div class="row">
+                <button onclick="appendNumber(1)" class="btn-item btn btn-secondary col">1</button>
+                <button onclick="appendNumber(2)" class="btn-item btn btn-secondary col">2</button>
+                <button onclick="appendNumber(3)" class="btn-item btn btn-secondary col">3</button>
+            </div>
             <br>
-            <button onclick="appendNumber('00')" class="btn-item">00</button>
-            <button onclick="appendNumber(0)" class="btn-item">0</button>
-            <button onclick="appendDecimal()" class="btn-item">.</button>
-            <button onclick="calculate()" class="eql-btn">=</button>
-            <br>
+            <div class="row">
+                <button onclick="appendNumber('00')" class="btn-item btn btn-secondary col">00</button>
+                <button onclick="appendNumber(0)" class="btn-item btn btn-secondary col">0</button>
+                <button onclick="appendDecimal()" class="btn-item btn btn-secondary col">.</button>
+                <button onclick="calculate()" class="eql-btn btn btn-success col">=</button>
+            </div>
         </div>
 
-        <footer>
-            <p class="ftter">Copyright &copy; Ameer Ali</p>
+        <footer class="bg-dark text-center py-2 mt-3">
+            <p class="ftter">Copyright &copy; All Rights Reserved Ameer Ali</p>
         </footer>
 
-        <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./assets/js/app.js"></script>
     </body>
 
 </html>
