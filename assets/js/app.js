@@ -1,16 +1,30 @@
-function bsp() {
-    let str = document.getElementById('label').value;
-    str = str.substr(0, str.length - 1); document.getElementById('label').value = str;
+function appendOperator(operator) {
+    document.getElementById('label').value += operator;
 }
-function cl() {
-    document.getElementById("label").value = document.getElementById("label").value = "";
 
+function clearEntry() {
+    let currentLabel = document.getElementById('label').value;
+    document.getElementById('label').value = currentLabel.slice(0, -1);
 }
-function num(n) {
-    document.getElementById("label").value = document.getElementById("label").value + n;
 
+function clearAll() {
+    document.getElementById('label').value = '';
 }
-function eql() {
-    document.getElementById("label").value = eval(document.getElementById("label").value)
 
+function appendNumber(number) {
+    document.getElementById('label').value += number;
+}
+
+function appendDecimal() {
+    document.getElementById('label').value += '.';
+}
+
+function calculate() {
+    let expression = document.getElementById('label').value;
+    try {
+        let result = eval(expression);
+        document.getElementById('label').value = result;
+    } catch (error) {
+        document.getElementById('label').value = 'Error';
+    }
 }

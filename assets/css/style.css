@@ -1,85 +1,79 @@
-/* Container Styles */
-.container {
-  position: absolute;
-  left: 36%;
-  top: 0;
-  border: 5px solid black;
+/* Add your CSS styles here for consistent design */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
-/* Button Styles */
+.header {
+  background-color: #343a40; /* Dark gray background */
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.text-box {
+  text-align: right;
+}
+
 .btn-item {
-  width: 88px;
-  height: 83px;
-  font-size: 1.5rem;
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  margin: 5px;
+}
+
+.btn-item:hover {
+  background-color: #007bff;
+  color: white;
 }
 
 .eql-btn {
-  width: 88px;
-  height: 166px;
-  position: absolute;
-  font-size: 1.5rem;
-  margin-top: -83px;
-  margin-left: 4px;
+  background-color: #28a745; /* Green background for the equal button */
+  color: white;
 }
 
-.btn-item1 {
-  position: absolute;
-  width: 93px;
-  height: 75px;
-  font-size: 1.5rem;
-  margin-top: -304px;
-  margin-left: 174px;
+.eql-btn:hover {
+  background-color: #1e7e34; /* Darker green on hover */
 }
 
-.btn-item2 {
-  margin-left: 849px;
-  position: absolute;
-  width: 93px;
-  height: 76px;
-  font-size: 1.5rem;
-  margin-top: -229px;
-}
-
-/* Text Box Styles */
-.text-box {
-  font-size: 36px;
-  height: 85px;
-  width: 356px;
-  background: skyblue;
-  margin-left: 0;
-}
-
-/* Body Styles */
-body {
-  background: aquamarine;
-}
-
-/* Button Hover Styles */
-button:hover {
-  background-color: #e43838;
-}
-
-/* Input Hover Styles */
-input:hover {
-  background-color: #9c9c5f;
-}
-
-/* Header Styles */
-.item {
-  font-size: 1.125rem;
-  background-color: aliceblue;
-}
-
-/* Footer Styles */
 .ftter {
-  font-size: 1rem;
-  color: #e90a0a;
-  margin-top: 39%;
+  text-align: center;
+  color: #343a40;
+  margin-top: 20px;
+  padding: 10px;
 }
 
-/* Header Subtitle Styles */
-.hd1 {
-  margin-left: 25%;
-  color: darkblue;
-  font-size: 2.5rem;
+#label {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  height: 75px;
+  font-size: 50px;
+  font-weight: 500;
+}
+.ftter {
+  color: white;
+  font-size: large;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 576px) {
+  .btn-item {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .ftter {
+    font-size: 16px;
+  }
 }
